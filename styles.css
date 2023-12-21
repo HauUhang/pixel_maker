@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: beige;
+    margin: 0;
+}
+
+#settings {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 居中设置 */
+}
+
+.setting {
+    margin-bottom: 10px;
+    display: flex; /* 将.setting容器设置为flex布局 */
+    align-items: center; /* 在水平方向上居中对齐子元素 */
+}
+
+#settings h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.setting label {
+    margin-right: 10px; /* 添加间距，可根据需要调整 */
+}
+
+.setting input {
+    max-width: 80px; /* 设置适当的最大宽度 */
+}
+
+.author-text {
+    font-family: "楷体", cursive;
+    margin-top: 30px;
+}
+
+#game-container {
+    display: none;
+    flex-direction: column;
+    align-items: center; /*居中*/
+}
+
+#canvas {
+    display: grid;
+    gap: 1px;
+    border: 1px solid #000;
+    max-width: 100%; /* 使用相对值，例如百分比 */
+    overflow: clip;
+    background-color: #fff; /* 为画布设置背景颜色 */
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+}
+
+
+#color-picker {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#tools {
+    display: flex;
+    margin-top: 10px;
+}
+
+#color-picker input,
+#color-picker button,
+#tools button {
+    margin-right: 5px;
+}
+
+#color-preview {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border: 1px solid #000;
+}
