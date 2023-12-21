@@ -1,6 +1,8 @@
 # Pixel maker
 这是我利用ChatGPT制作的一个简单的pixel 绘图网站
 
+点击此处可以跳转：[pixel_maker](https://hauuhang.github.io/pixel_maker/)
+
 ## 包含功能
 - 简单的绘制pixel图像
 - RGB颜色选择
