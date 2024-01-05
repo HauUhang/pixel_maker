@@ -6,7 +6,7 @@
 ![主页图片](https://github.com/HauUhang/pixel_maker/blob/main/%E4%B8%BB%E9%A1%B5.png?raw=true)
 
 输入你的“行数”和“列数”后，点击“开始创作”，即可开始创作
-![内容](https://github.com/HauUhang/pixel_maker/blob/main/%E4%B8%BB%E9%A1%B5.png?raw=true)
+![内容](https://github.com/HauUhang/pixel_maker/blob/main/pixel%E7%95%8C%E9%9D%A2%E5%86%85%E5%AE%B9.png?raw=true)
 
 ## 包含功能
 - 简单的绘制pixel图像
